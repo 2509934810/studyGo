@@ -1,0 +1,202 @@
+[1577972456.417][INFO]: Starting ChromeDriver 75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155})
+[1577972456.417][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1577972457.399][INFO]: [3c6e19daa4ce0d73d8c3c2567ca42382] COMMAND InitSession {
+   "desiredCapabilities": {
+      "loggingPrefs": {
+         "performance": "INFO"
+      }
+   },
+   "requiredCapabilities": {
+
+   }
+}
+[1577972457.401][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1577972457.401][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1577972457.403][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension=/tmp/.com.google.Chrome.XumC6w/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.XZjKl5 data:,
+[1577972458.015][INFO]: resolved localhost to ["127.0.0.1"]
+[1577972458.107][INFO]: [3c6e19daa4ce0d73d8c3c2567ca42382] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155})",
+      "userDataDir": "/tmp/.com.google.Chrome.XZjKl5"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:46037"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Linux",
+   "proxy": {
+
+   },
+   "~~~": "..."
+}
+[1577972458.109][INFO]: [3c6e19daa4ce0d73d8c3c2567ca42382] COMMAND GetLog {
+   "type": "performance"
+}
+[1577972458.110][INFO]: [3c6e19daa4ce0d73d8c3c2567ca42382] RESPONSE GetLog [  ]
+[1577972458.112][INFO]: [3c6e19daa4ce0d73d8c3c2567ca42382] COMMAND Navigate {
+   "url": "https://www.raintank.io"
+}
+[1577972458.112][INFO]: Waiting for pending navigations...
+[1577972458.140][INFO]: Done waiting for pending navigations. Status: ok
+[1577972459.447][INFO]: Waiting for pending navigations...
+[1577972489.854][INFO]: Done waiting for pending navigations. Status: ok
+[1577972489.854][INFO]: [3c6e19daa4ce0d73d8c3c2567ca42382] RESPONSE Navigate
+[1577972489.855][INFO]: [3c6e19daa4ce0d73d8c3c2567ca42382] COMMAND GetLog {
+   "type": "performance"
+}
+[1577972489.860][INFO]: [3c6e19daa4ce0d73d8c3c2567ca42382] RESPONSE GetLog [ {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Page.frameAttached\",\"params\":{\"frameId\":\"A33E75BAB8406D158EE550D7EF232AC6\",\"parentFrameId\":\"284B8801163AA04DA68C7228199B276E\",\"stack\":{\"callFrames\":[{\"columnNumber\":125,\"funct...",
+   "timestamp": 1577972458136.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"A33E75BAB8406D158EE550D7EF232AC6\"}},\"webview\":\"284B8801163AA04DA68C7228199B276E\"}",
+   "timestamp": 1577972458140.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"id\":\"A33E75BAB8406D158EE550D7EF232AC6\",\"loaderId\":\"DCA2892D9F681B4B306B4B6FEC937C8F\",\"mimeType\":\"text/html\",\"name\":\"chromedriver dummy...",
+   "timestamp": 1577972458140.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Page.frameStoppedLoading\",\"params\":{\"frameId\":\"A33E75BAB8406D158EE550D7EF232AC6\"}},\"webview\":\"284B8801163AA04DA68C7228199B276E\"}",
+   "timestamp": 1577972458140.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Page.frameDetached\",\"params\":{\"frameId\":\"A33E75BAB8406D158EE550D7EF232AC6\"}},\"webview\":\"284B8801163AA04DA68C7228199B276E\"}",
+   "timestamp": 1577972458155.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://www.raintank.io/\",\"frameId\":\"284B8801163AA04DA68C7228199B276E\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},...",
+   "timestamp": 1577972458173.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://grafana.com/\",\"frameId\":\"284B8801163AA04DA68C7228199B276E\",\"hasUserGesture\":false,\"initiator\":{\"type\":\"other\"},\"loa...",
+   "timestamp": 1577972458935.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.responseReceived\",\"params\":{\"frameId\":\"284B8801163AA04DA68C7228199B276E\",\"loaderId\":\"D1FD164D4DA8AC8323B3439ACFB66E7B\",\"requestId\":\"D1FD164D4DA8AC8323B3439ACFB66E7B\",\"...",
+   "timestamp": 1577972459335.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Page.frameStartedLoading\",\"params\":{\"frameId\":\"284B8801163AA04DA68C7228199B276E\"}},\"webview\":\"284B8801163AA04DA68C7228199B276E\"}",
+   "timestamp": 1577972459419.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Page.frameNavigated\",\"params\":{\"frame\":{\"id\":\"284B8801163AA04DA68C7228199B276E\",\"loaderId\":\"D1FD164D4DA8AC8323B3439ACFB66E7B\",\"mimeType\":\"text/html\",\"securityOrigin\":\"https://...",
+   "timestamp": 1577972459419.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.dataReceived\",\"params\":{\"dataLength\":27748,\"encodedDataLength\":0,\"requestId\":\"D1FD164D4DA8AC8323B3439ACFB66E7B\",\"timestamp\":225.913653}},\"webview\":\"284B8801163AA04DA68...",
+   "timestamp": 1577972459438.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.loadingFinished\",\"params\":{\"encodedDataLength\":28027,\"requestId\":\"D1FD164D4DA8AC8323B3439ACFB66E7B\",\"shouldReportCorbBlocking\":false,\"timestamp\":225.897793}},\"webview\"...",
+   "timestamp": 1577972459439.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://grafana.com/\",\"frameId\":\"284B8801163AA04DA68C7228199B276E\",\"hasUserGesture\":false,\"initiator\":{\"lineNumber\":58,\"typ...",
+   "timestamp": 1577972459445.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://grafana.com/\",\"frameId\":\"284B8801163AA04DA68C7228199B276E\",\"hasUserGesture\":false,\"initiator\":{\"lineNumber\":61,\"typ...",
+   "timestamp": 1577972459445.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://grafana.com/\",\"frameId\":\"284B8801163AA04DA68C7228199B276E\",\"hasUserGesture\":false,\"initiator\":{\"lineNumber\":66,\"typ...",
+   "timestamp": 1577972459445.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://grafana.com/\",\"frameId\":\"284B8801163AA04DA68C7228199B276E\",\"hasUserGesture\":false,\"initiator\":{\"lineNumber\":67,\"typ...",
+   "timestamp": 1577972459445.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://grafana.com/\",\"frameId\":\"284B8801163AA04DA68C7228199B276E\",\"hasUserGesture\":false,\"initiator\":{\"lineNumber\":105,\"ty...",
+   "timestamp": 1577972459446.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://grafana.com/\",\"frameId\":\"284B8801163AA04DA68C7228199B276E\",\"hasUserGesture\":false,\"initiator\":{\"lineNumber\":164,\"ty...",
+   "timestamp": 1577972459446.0
+}, {
+   "level": "INFO",
+   "message": "{\"message\":{\"method\":\"Network.requestWillBeSent\",\"params\":{\"documentURL\":\"https://grafana.com/\",\"frameId\":\"284B8801163AA04DA68C7228199B276E\",\"hasUserGesture\":false,\"initiator\":{\"lineNumber\":175,\"ty...",
+   "timestamp": 1577972459446.0
+}, "..." ]
+[1577972490.923][INFO]: [3c6e19daa4ce0d73d8c3c2567ca42382] COMMAND Quit {
+
+}
+[1577972490.973][INFO]: [3c6e19daa4ce0d73d8c3c2567ca42382] RESPONSE Quit
